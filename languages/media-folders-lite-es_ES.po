@@ -1,0 +1,130 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: Media Folders Lite v1.0.2\n"
+"POT-Creation-Date: 2022-06-01 01:06-0400\n"
+"PO-Revision-Date: 2022-06-01 01:07-0400\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: media-folders.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"Last-Translator: \n"
+"Language: es_ES\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/build.php:29
+msgid "Folder"
+msgstr "Directorio"
+
+#: includes/build.php:54
+msgid "Thank you for choosing Media Folders Lite!"
+msgstr "Gracias por elegir Media Folders Lite!"
+
+#: includes/build.php:56
+msgid "Configure your folders in Settings > Media"
+msgstr "Configura tus directorios en Ajustes > Medios"
+
+#: includes/build.php:68
+msgid "Settings"
+msgstr "Ajustes"
+
+#: includes/build.php:78
+msgid "Please rate us"
+msgstr "Por favor califícanos"
+
+#: includes/build.php:93
+#, php-format
+msgid ""
+"If you like %1$s please leave us a %2$s rating. A huge thanks in advance!"
+msgstr ""
+"Si te gusta %1$s déjanos una calificación de %2$s. ¡Muchísimas gracias de "
+"antemano!"
+
+#. Plugin Name of the plugin/theme
+#: includes/build.php:94
+msgid "Media Folders Lite"
+msgstr "Media Folders Lite"
+
+#: includes/build.php:115
+msgid "Media Upload Folders"
+msgstr "Directorios de carga de medios"
+
+#: includes/build.php:122
+msgid "Define your folders"
+msgstr "Defina sus directorios"
+
+#: includes/build.php:132
+msgid "Define your folders one per line."
+msgstr "Defina los directorios uno por línea."
+
+#: includes/build.php:135
+msgid "Example:"
+msgstr "Ejemplo:"
+
+#: includes/build.php:136
+msgid "People"
+msgstr "Personas"
+
+#: includes/build.php:137
+msgid "People/Smiling"
+msgstr "Personas/Sonriendo"
+
+#: includes/build.php:143
+msgid "Donate link:"
+msgstr "Enlace para donar:"
+
+#: includes/build.php:144
+msgid "Thanks"
+msgstr "Gracias"
+
+#: includes/build.php:152 includes/select.php:46
+msgid "Select the folder"
+msgstr "Seleccione el directorio"
+
+#: includes/build.php:156 includes/select.php:53 includes/taxonomy.php:17
+#: includes/taxonomy.php:73
+msgid "- Default"
+msgstr "- Predeterminado"
+
+#: includes/filter.php:20
+msgid "All folders"
+msgstr "Todos los directorios"
+
+#: includes/select.php:27
+msgid ""
+"Select the folder where you want to save the images or files that you upload "
+"to this post."
+msgstr ""
+"Seleccione el directorio donde desea guardar las imágenes o archivos que "
+"suba a esta publicación."
+
+#: includes/select.php:28
+msgid "Select Folder"
+msgstr "Seleccionar directorio"
+
+#: includes/select.php:49
+msgid "Select the folder where you want to save your image or file"
+msgstr "Seleccione el directorio donde desea guardar su imagen o archivo"
+
+#: includes/select.php:62
+msgid "Done!"
+msgstr "Hecho!"
+
+#. Description of the plugin/theme
+msgid "Upload files to custom folders in WP Media Library."
+msgstr "Cargue archivos en directorios personalizados en WP Media Library."
+
+#. Author of the plugin/theme
+msgid "jbulies"
+msgstr "jbulies"
+
+#. Author URI of the plugin/theme
+msgid "https://www.instagram.com/pepebulies"
+msgstr "https://www.instagram.com/pepebulies"

@@ -1,0 +1,166 @@
+.mediafolders-select-title {
+	margin: revert !important;
+}
+
+.mediafolders-select-js {
+	min-width: 170px;
+}
+
+.mediafolders-img-js {
+	display: contents;
+}
+
+
+.mode-select .attachments-browser .attachment-filters {
+	width: calc(32% - 12px) !important;
+}
+
+.mode-select .attachments-browser .media-toolbar-secondary {
+	width: 100% !important;
+}
+
+.mediafolders-popup {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 1111111;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .2s ease-in;
+}
+
+.mediafolders-popup.open {
+    visibility: visible;
+    opacity: 1;
+}
+
+.mediafolders-popup-inner {
+	text-align: center;
+    background-color: white;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.mediafolders-popup-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    width: 32px;
+    text-align: center;
+    font-size: 32px;
+    line-height: 1;
+	color: #757c8e;
+}
+
+.mediafolders-popup-inner > h2 {
+	margin-top: 24px;
+	margin-bottom: 20px;
+	font-size: 1.5rem;
+}
+
+.mediafolders-popup-inner > p {
+	font-size: 1rem;
+	color: #757c8e;
+}
+
+.mediafolders-popup-select {
+	background-color: #ffffff !important;
+	border-color: #e1e6ed !important;
+	font-size: 1rem !important;
+	min-width: 180px !important;
+	min-height: 40px !important;
+	line-height: initial !important;
+	margin-bottom: 27px;
+	padding: 10px 15px !important;
+	border-radius: 3px !important;
+}
+
+.mediafolders-popup-button {
+	margin-bottom: 24px;
+}
+
+.mediafolders-popup-button > button {
+	background-color: #007cba;
+	color: #ffffff;
+	font-size: 1rem !important;
+	font-weight: normal !important;
+	border: none;
+	border-radius: 3px;
+	padding-top: 10px;
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-bottom: 10px;
+}
+
+.mediafolders-popup-button > button:hover {
+	background-color: #006ba1;
+}
+
+.mediafolders-panel-button {
+	display: block;
+	margin-top: 12px;
+}
+
+@media screen and (max-width: 600px) {
+    .mediafolders-popup-inner {
+        width: 90%;
+    }
+
+	.attachments-browser .attachment-filters {
+		margin-bottom: 5px !important;
+	}
+	.attachments-browser .media-toolbar-primary {
+		margin-top: 0px;
+	}
+	.attachments-browser .media-toolbar-secondary {
+		display: grid;
+	}
+	.attachments-browser .media-toolbar-secondary .spinner {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 10px;
+		margin-bottom: -10px;
+	}
+
+	.mode-select .attachments-browser .attachment-filters {
+		margin-top: 5px !important;
+
+	}
+	.mode-select .attachments-browser .attachment-filters {
+		margin-bottom: 0px !important;
+		max-width: 100% !important;
+		width: 100% !important;
+
+	}
+	.mode-select .attachments-browser .media-toolbar-primary {
+		margin-top: -10px;
+		max-width: 100% !important;
+		width: 100%;
+	}
+	.mode-select .attachments-browser .media-toolbar-secondary {
+		max-width: 100% !important;
+		width: 100% !important;
+		margin-top: 32px !important;
+	}
+	.mode-select .attachments-browser.has-load-more .attachments-wrapper {
+		top: 250px;
+	}
+	.mode-select .attachments-browser .media-toolbar {
+		height: auto;
+	}
+	.attachments-browser .media-toolbar-secondary .spinner {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 5px;
+		margin-bottom: -10px;
+	}
+}
