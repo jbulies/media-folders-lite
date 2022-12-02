@@ -3,7 +3,7 @@ Contributors: jbulies
 Donate link: https://tppay.me/l2447ony
 Tags: media, upload, folders, directories, directory, subdirectories, folder, subfolders, media folders, media library folders, custom folders, custom upload
 Requires at least: 5.0 or higher
-Tested up to: 6.0
+Tested up to: 6.1.1
 Stable tag: 1.0.2
 Requires PHP: 5.6 or higher
 License: GPLv3
